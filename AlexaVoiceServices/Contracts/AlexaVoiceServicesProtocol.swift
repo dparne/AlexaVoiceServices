@@ -12,7 +12,7 @@ import Result
 
 public protocol AlexaVoiceServicesProtocol {
     
-    var eventListener: Observer<AlexaEvent, NoError> { get }
+    var eventListener: Observer<AlexaVoiceServicesEvent, NoError> { get }
     
-    var directiveProvider: Signal<AlexaDirective, NoError> { get }
+    var directiveProvider: Signal<AlexaVoiceServicesDirective, NoError> { get }
 }

@@ -1,5 +1,5 @@
 //
-//  AlexaDirective.swift
+//  AlexaEvent.swift
 //  AlexaVoiceServices
 //
 //  Created by Dinesh Reddy Parne on 8/10/16.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class AlexaDirective {
+public class AlexaVoiceServicesEvent {
     
 }

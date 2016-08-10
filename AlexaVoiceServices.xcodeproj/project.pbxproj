@@ -11,8 +11,12 @@
 		78FBC0F71D5A3D9F002260A1 /* AlexaVoiceServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FBC0EC1D5A3D9F002260A1 /* AlexaVoiceServices.framework */; };
 		78FBC0FC1D5A3D9F002260A1 /* AlexaVoiceServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC0FB1D5A3D9F002260A1 /* AlexaVoiceServicesTests.swift */; };
 		78FBC1101D5A7D74002260A1 /* AlexaVoiceServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC10F1D5A7D74002260A1 /* AlexaVoiceServicesProtocol.swift */; };
-		78FBC1171D5B89E4002260A1 /* AlexaEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC1161D5B89E4002260A1 /* AlexaEvent.swift */; };
-		78FBC1191D5B89F0002260A1 /* AlexaDirective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC1181D5B89F0002260A1 /* AlexaDirective.swift */; };
+		78FBC1171D5B89E4002260A1 /* AlexaVoiceServicesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC1161D5B89E4002260A1 /* AlexaVoiceServicesEvent.swift */; };
+		78FBC1191D5B89F0002260A1 /* AlexaVoiceServicesDirective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC1181D5B89F0002260A1 /* AlexaVoiceServicesDirective.swift */; };
+		78FBC11B1D5B991B002260A1 /* AlexaVoiceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC11A1D5B991B002260A1 /* AlexaVoiceServices.swift */; };
+		78FBC11D1D5B9A8B002260A1 /* AlexaVoiceServicesConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC11C1D5B9A8B002260A1 /* AlexaVoiceServicesConfiguration.swift */; };
+		78FBC11F1D5B9BFD002260A1 /* AlexaVoiceServicesApiCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC11E1D5B9BFD002260A1 /* AlexaVoiceServicesApiCommunicator.swift */; };
+		78FBC1211D5B9CF1002260A1 /* AlexaVoiceServicesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FBC1201D5B9CF1002260A1 /* AlexaVoiceServicesException.swift */; };
 		804E7EBB99450EAC9E12DA20 /* Pods_AlexaVoiceServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682C4E293EB7582CE27606A4 /* Pods_AlexaVoiceServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +40,12 @@
 		78FBC0FB1D5A3D9F002260A1 /* AlexaVoiceServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesTests.swift; sourceTree = "<group>"; };
 		78FBC0FD1D5A3D9F002260A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FBC10F1D5A7D74002260A1 /* AlexaVoiceServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesProtocol.swift; sourceTree = "<group>"; };
-		78FBC1161D5B89E4002260A1 /* AlexaEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaEvent.swift; sourceTree = "<group>"; };
-		78FBC1181D5B89F0002260A1 /* AlexaDirective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaDirective.swift; sourceTree = "<group>"; };
+		78FBC1161D5B89E4002260A1 /* AlexaVoiceServicesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesEvent.swift; sourceTree = "<group>"; };
+		78FBC1181D5B89F0002260A1 /* AlexaVoiceServicesDirective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesDirective.swift; sourceTree = "<group>"; };
+		78FBC11A1D5B991B002260A1 /* AlexaVoiceServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServices.swift; sourceTree = "<group>"; };
+		78FBC11C1D5B9A8B002260A1 /* AlexaVoiceServicesConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesConfiguration.swift; sourceTree = "<group>"; };
+		78FBC11E1D5B9BFD002260A1 /* AlexaVoiceServicesApiCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesApiCommunicator.swift; sourceTree = "<group>"; };
+		78FBC1201D5B9CF1002260A1 /* AlexaVoiceServicesException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlexaVoiceServicesException.swift; sourceTree = "<group>"; };
 		FE771986FEBDF86D2B33254B /* Pods-AlexaVoiceServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexaVoiceServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlexaVoiceServices/Pods-AlexaVoiceServices.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +95,7 @@
 				78FBC1061D5A3E90002260A1 /* Contracts */,
 				78FBC0EF1D5A3D9F002260A1 /* AlexaVoiceServices.h */,
 				78FBC0F11D5A3D9F002260A1 /* Info.plist */,
+				78FBC11A1D5B991B002260A1 /* AlexaVoiceServices.swift */,
 			);
 			path = AlexaVoiceServices;
 			sourceTree = "<group>";
@@ -104,8 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				78FBC10F1D5A7D74002260A1 /* AlexaVoiceServicesProtocol.swift */,
-				78FBC1161D5B89E4002260A1 /* AlexaEvent.swift */,
-				78FBC1181D5B89F0002260A1 /* AlexaDirective.swift */,
+				78FBC1161D5B89E4002260A1 /* AlexaVoiceServicesEvent.swift */,
+				78FBC1181D5B89F0002260A1 /* AlexaVoiceServicesDirective.swift */,
+				78FBC11C1D5B9A8B002260A1 /* AlexaVoiceServicesConfiguration.swift */,
+				78FBC11E1D5B9BFD002260A1 /* AlexaVoiceServicesApiCommunicator.swift */,
+				78FBC1201D5B9CF1002260A1 /* AlexaVoiceServicesException.swift */,
 			);
 			path = Contracts;
 			sourceTree = "<group>";
@@ -270,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FBC1171D5B89E4002260A1 /* AlexaEvent.swift in Sources */,
+				78FBC11F1D5B9BFD002260A1 /* AlexaVoiceServicesApiCommunicator.swift in Sources */,
+				78FBC11B1D5B991B002260A1 /* AlexaVoiceServices.swift in Sources */,
+				78FBC1171D5B89E4002260A1 /* AlexaVoiceServicesEvent.swift in Sources */,
+				78FBC11D1D5B9A8B002260A1 /* AlexaVoiceServicesConfiguration.swift in Sources */,
 				78FBC1101D5A7D74002260A1 /* AlexaVoiceServicesProtocol.swift in Sources */,
-				78FBC1191D5B89F0002260A1 /* AlexaDirective.swift in Sources */,
+				78FBC1211D5B9CF1002260A1 /* AlexaVoiceServicesException.swift in Sources */,
+				78FBC1191D5B89F0002260A1 /* AlexaVoiceServicesDirective.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
